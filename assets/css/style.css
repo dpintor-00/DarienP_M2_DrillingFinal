@@ -1,0 +1,56 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h1, h5{
+    text-decoration: underline;
+}
+
+#min1, #min2{
+    display: inline-block;
+}
+
+.cursiva{
+    font-style: italic;
+}
+
+.oscuro{
+    background-color: rgb(6, 8, 7);
+    color: white;
+}
+
+#conBorde{
+    border-right-style:solid;
+    border-right-color:darkgoldenrod;
+}
+
+#logoIzq{
+    text-align: right;
+}
+
+#logoDer{
+    text-align: left;
+}
+
+#habTab{
+    text-align: left;
+    margin-left: 12%;
+}
+
+.misHab{
+    display: none;
+}
+
+.imgHab{
+    max-width: 20%;
+    margin-bottom: 2%;
+    display: inline-block;
+}
+
+#img1{
+    margin-right: 3%;
+}
+
+#img2{
+    margin-left: 3%;
+}

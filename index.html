@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Personal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+    <div class="container-fluid text-end mt-2">
+        <div class="row">
+          <div class="col">
+            <button class="btn btn-dark rounded-pill" id="btnTema" type="button">
+                <img src="assets/img/LogoDarkTheme.png" alt="Tema Oscuro" width="30px">
+            </button>
+          </div>
+        </div>
+      </div>
+
+    <div class="container text-center mt-2">
+        <div class="row mb-4">
+          <div class="col-3" id="logoIzq">
+            <img src="assets/img/logoTitulo.png">
+          </div>
+          <div class="col-6">
+            <h1>Portafolio Desarrollador<br></h1>
+            <h2 class="cursiva">Darien Andree</h2>
+          </div>
+          <div class="col-3" id="logoDer">
+            <img  src="assets/img/logoTitulo.png">
+          </div>
+
+        </div>
+    
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">¿Quién soy?</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Mis Proyectos</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contáctame</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                <div class="container text-center quienSoy">
+                    <div class="row">
+                      <div class="col-7 mt-5" id="conBorde">
+                        <p>
+                            Mi nombre es <b>Darien</b>. Actualmente participo del Bootcamp Vespertino Python FullStack Trainee 2.0, y los fines de semana me desempeño como Bodeguero Nocturno
+                        </p><br>
+                        <p>
+                            En mis labores destaco por llevar un trabajo ordenado y organizado, siendo capaz de colaborar con mis compañeros y entregar, dentro de lo posible, un desempeño sobresaliente acorde a lo que se necesite
+                        </p><br>
+                        <p>Durante el Bootcamp he aprendido fundamentos para el desarrollo front-end y el propósito de este documento es poner en práctica todo lo que se ha abordado hasta ahora</p>
+                        <p class="cursiva">¡Te invito a recorrer mi portafolio!</p><br>
+                        <button type="button" class="btn btn-dark rounded-pill" id="botonHabilidades">Mis Habilidades</button>
+                      </div>
+                    <div class="col-5 mt-4">
+                        <h5>
+                            Pequeña guía por el documento
+                        </h5><br>
+                        <p>
+                            <ul>
+                            <p>Bajo el título se encuentran <b>tres pestañas interactivas:</b></p>
+                          <li><b>'¿Quién soy?'</b> Entrega una breve descripción acerca de mi persona, a qué me dedico y mis habilidades</li><br>
+                          <li><b>'Mis proyectos'</b> Muestra repositorios con mis trabajos realizados </li><br>
+                            <p class="cursiva">Puedes acceder a las páginas web clickeando en las imágenes.</p>
+                          <li><b>'Contáctame'</b> Despliega un formulario de contacto para que puedas comunicarte conmigo</li><br>
+                            <p class="cursiva">
+                              ¡Puedes cambiar la apariencia del portafolio entre claro/oscuro clickeando el botón en la esquina superior derecha!
+                          </p>
+                        </ul>
+                        </p>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="container text-center misHab">
+                    <div class="row">
+                      <div class="col mt-5">
+                        <h5 id="habTab">Mis Habilidades:</h5>
+                        <p>
+                          Soy activo en la investigación sobre el desarrollo front-end<br>
+                          Aplicar estilos dinámicos haciendo uso de CSS<br>
+                          Mejorar constantemente el dominio de Bootstrap<br>
+                          El trabajo <b>bien hecho</b> siempre es mi estándar<br>
+                          Ser prolijo en la organización y<br>
+                          mantener un buen ambiente con mis compañeros<br>
+                        </p>
+                        <img class="imgHab" id="img1" src="assets/img/imgSample.jpg"> <img class="imgHab" id="img2" src="assets/img/imgSample2.png"><br>
+                        <button type="button" class="btn btn-dark rounded-pill" id="botonVolver">Volver</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <a target="_blank" href="https://github.com/dpintor-00">
+                          <img src="assets/img/1_Gallery.jpg" class="d-block w-100" alt="Mi Perfil GitHub">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Mi perfil de GitHub</h5>
+                          <p>Aquí se encuentran todos mis proyectos hasta la fecha</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <a target="_blank" href="https://github.com/dpintor-00/DarienP_Eva_M2S9">
+                          <img src="assets/img/2_Gallery.jpg" class="d-block w-100" alt="Proyecto 1">
+                         </a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Proyecto Lista de Tareas</h5>
+                          <p>Aplicación Web para organizar una lista de tareas</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <a target="_blank" href="https://github.com/dpintor-00/DarienP_Eva_M2S8">
+                          <img src="assets/img/3_Gallery.jpg" class="d-block w-100" alt="Proyecto 2">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Proyecto Cajero con JavaScript</h5>
+                          <p>Cajero con JavaScript con usuarios registrados</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                          <img src="assets/img/4_Gallery.jpg" class="d-block w-100" alt="Proyecto 2">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Otros Proyectos</h5>
+                          <p>Muestra de otros proyectos en mi perfil de GitHub</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+              <form>
+                <div class="row mb-3 mt-5">
+                  <label for="inputEmail3" class="col-sm-2 col-form-label">Nombre(s) *</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputNombre" placeholder="Cómo me referiré a usted" required>
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label for="inputEmail3" class="col-sm-2 col-form-label">Apellido(s) *</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputApellido" placeholder="Su apellido(s)" required>
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label for="inputPassword3" class="col-sm-2 col-form-label">Correo *</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputCorreo" placeholder="Su correo electrónico" required>
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label for="inputPassword3" class="col-sm-2 col-form-label">Móvil</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputMovil" placeholder="Celular o teléfono">
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Información adicional</label>
+                  <textarea class="form-control" id="solicitud" rows="6" placeholder="Si desea añadir información"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary rounded-pill formulario">Enviar</button>
+              </form>
+            </div>
+          </div>
+    
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
